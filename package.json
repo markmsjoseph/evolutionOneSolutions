@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "env-cmd -f ./config/test.env jest",
-    "dev": "env-cmd -f ./config/dev.env nodemon src/index.js",
+    "start": "env-cmd -f ./config/dev.env nodemon src/index.js",
     "seedProducts": "env-cmd -f ./config/dev.env node src/db/seeder"
   },
   "jest": {

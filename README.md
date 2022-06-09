@@ -25,4 +25,4 @@
 
 #### The frontend team, depending on their framework would for example make an axios call to retrieve the data from the endpoints to get a list of all data(which would contain each product id), to retrieve info about a specific product, on clicking a row there would be some sort of binding which would retrieve the data from the clicked row, and pass the id of the specific product to the /products/:id endpoint to retrieve the specific details
 
-##### My Docker image should be completed later today
+##### To run with docker use 'docker-compose up'
